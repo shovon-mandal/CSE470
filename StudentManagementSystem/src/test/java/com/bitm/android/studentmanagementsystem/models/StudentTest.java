@@ -10,7 +10,7 @@ public class StudentTest {
 
 
     @Test
-    public void setCGPA() {
+    public void TestSetCGPATest() {
         Double input=3.66;
         boolean output;
         boolean expected=true;
@@ -21,19 +21,19 @@ public class StudentTest {
 
 
     @Test
-    public void setName() {
+    public void TestSetName() {
     String input="Shovon";
     s.setName(input);
     }
 
     @Test
-    public void setAge() {
+    public void TestSetAge() {
         int age=18;
         s.setAge(age);
     }
 
     @Test
-    public void setMobile() {
+    public void TestSetMobile() {
         String mobileNumber="01911549671";
         s.setMobile(mobileNumber);
     }
@@ -41,25 +41,25 @@ public class StudentTest {
 
 
     @Test
-    public void setDepartment() {
+    public void TestSetDepartment() {
         String Department ="CSE";
         s.setDepartment(Department);
     }
 
     @Test
-    public void setQualification() {
+    public void TestSetQualification() {
         String Qualification="HSC";
         s.setQualification(Qualification);
     }
 
     @Test
-    public void setLocation() {
+    public void TestSetLocation() {
         String Location="Khulna";
         s.setLocation(Location);
     }
 
     @Test
-    public void setGender() {
+    public void TestSetGender() {
         String Gender= "Male";
         s.setGender(Gender);
     }

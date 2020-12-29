@@ -13,6 +13,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
 
     buildTypes {
         release {
@@ -35,8 +38,10 @@ android {
 }
 
 dependencies {
-   // implementation 'org.junit.jupiter:junit-jupiter'
+    implementation fileTree(dir: '..\\gradle\\wrapper', include: ['*.aar', '*.jar'], exclude: [])
+    // implementation 'org.junit.jupiter:junit-jupiter'
     testImplementation 'com.android.support.test:rules:1.0.2'
+    testImplementation 'org.testifyproject.mock:mock:1.0.6'
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
     // implementation 'org.testng:testng:6.9.6'
    implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
