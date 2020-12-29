@@ -11,7 +11,7 @@ public class StudentTest {
 
     @Test
     public void TestSetCGPATest() {
-        Double input=55.00;
+        Double input=3.66;
         boolean output;
         boolean expected=true;
 
@@ -22,19 +22,19 @@ public class StudentTest {
 
     @Test
     public void TestSetName() {
-    String input="";
+    String input="Shovon";
     s.setName(input);
     }
 
     @Test
     public void TestSetAge() {
-        int age=8;
+        int age=18;
         s.setAge(age);
     }
 
     @Test
     public void TestSetMobile() {
-        String mobileNumber="01911";
+        String mobileNumber="01911549671";
         s.setMobile(mobileNumber);
     }
 
@@ -54,7 +54,7 @@ public class StudentTest {
 
     @Test
     public void TestSetLocation() {
-        String Location="";
+        String Location="Khulna";
         s.setLocation(Location);
     }
 
