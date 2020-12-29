@@ -27,7 +27,7 @@ import androidx.navigation.Navigation;
 
 import com.bitm.android.studentmanagementsystem.R;
 import com.bitm.android.studentmanagementsystem.models.Student;
-import com.bitm.android.studentmanagementsystem.models.viewmodels.StudentViewModel;
+import com.bitm.android.studentmanagementsystem.view.StudentViewModel;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.text.SimpleDateFormat;

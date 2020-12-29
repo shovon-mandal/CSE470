@@ -20,7 +20,7 @@ import android.widget.Toast;
 import com.bitm.android.studentmanagementsystem.R;
 import com.bitm.android.studentmanagementsystem.controller.adapters.StudentAdapter;
 import com.bitm.android.studentmanagementsystem.models.Student;
-import com.bitm.android.studentmanagementsystem.models.viewmodels.StudentViewModel;
+import com.bitm.android.studentmanagementsystem.view.StudentViewModel;
 
 import java.util.List;
 

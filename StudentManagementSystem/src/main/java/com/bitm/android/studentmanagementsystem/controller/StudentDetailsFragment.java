@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import com.bitm.android.studentmanagementsystem.R;
 import com.bitm.android.studentmanagementsystem.models.Student;
-import com.bitm.android.studentmanagementsystem.models.viewmodels.StudentViewModel;
+import com.bitm.android.studentmanagementsystem.view.StudentViewModel;
 
 public class StudentDetailsFragment extends Fragment {
     private static final String TAG = StudentDetailsFragment.class.getSimpleName();

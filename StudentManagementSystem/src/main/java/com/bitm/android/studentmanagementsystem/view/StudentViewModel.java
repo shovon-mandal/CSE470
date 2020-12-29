@@ -1,4 +1,4 @@
-package com.bitm.android.studentmanagementsystem.models.viewmodels;
+package com.bitm.android.studentmanagementsystem.view;
 
 import android.app.Application;
 import android.content.Context;
